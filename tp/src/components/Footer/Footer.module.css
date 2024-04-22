@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.5rem;
+  padding-bottom: 1.25rem;
+}
+
+.footerSide {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.footerSocial {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  padding-left: 0;
+}
+
+.footerName {
+  margin-bottom: 0;
+}
+
+.footerRights {
+  margin-top: 0;
+}

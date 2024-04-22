@@ -1,0 +1,15 @@
+.homeContainer {
+  height: 100%;
+  padding-block: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heroImage {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+}

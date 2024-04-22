@@ -1,0 +1,23 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.logoTitleContainer {
+  all: unset;
+  outline: revert;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  opacity: 1;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}

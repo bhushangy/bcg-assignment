@@ -1,0 +1,29 @@
+.statsContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.gridContainer {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+.approvalStatsContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.dropDown {
+  display: flex;
+  height: 30px;
+
+  & select {
+    padding: 5px;
+  }
+}
