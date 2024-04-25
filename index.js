@@ -36,3 +36,5 @@ Promise.any([p1, p2, p3]).then((res) => {
 Promise.race([p1, p2, p3]).then((res) => {
   console.log('race', res);
 }); // Waits till the first promise is resolved.
+
+// Promise.race - To be used to track async calls that take a lot of time
