@@ -4,7 +4,6 @@ function mergeIntervals(arr) {
     const outputArr = [inputArr[0]];
 
     for (const [currStart, currEnd] of inputArr.slice(1)) {
-        const prevStart = outputArr.at(-1)[0];
         const prevEnd = outputArr.at(-1)[1];
 
         if (currStart <= prevEnd) {
